@@ -1,0 +1,13 @@
+/*
+*
+* 	Horizontally.js v1.0 
+*	https://github.com/MatthewBleUK/horizontally.js
+*
+*	@license released under GPL-3.0 for open source personal use. 
+*	For commercial use please see the readme.
+*
+*   Copyright 2022 - Created by Matthew Bleathman
+*
+*/
+
+html,body {position:fixed;min-width:100%;min-height:100%;margin:0;overflow:hidden;}#horizontally {position:fixed;display:flex;-webkit-backface-visibility:hidden;}.section {min-width:100vw;min-height:100vh;-webkit-transform:translate3d(0,0,0);}#fixed-arrows {z-index:1;}#fixed-arrows .arrow {cursor:pointer;position:fixed;top:50%;margin-top:-45px;width:70px;height:90px;z-index:1;background:0 0;border:0;outline:0;}#fixed-arrows .left {left:10px;}#fixed-arrows .right {right:10px;}#page-selector {position:fixed;width:100%;bottom:30px;z-index:1;}#page-selector li {padding:2px;width:20px;height:20px;display:flex;justify-content:center;align-items:center;}#page-selector li.active span {width:12px;height:12px;}#page-selector li:hover {cursor:pointer;}#page-selector li:hover span {width:12px;height:12px;}#page-selector ul {list-style-type:none;display:flex;padding:0;margin:0;height:25px;justify-content:center;align-items:center;}#page-selector span {width:5px;height:5px;background:#000;border-radius:100px;display:block;transition:0.3s;}
