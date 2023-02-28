@@ -1,84 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="Assets/components/horizontally/horizontally.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="Assets/components/horizontally/horizontally.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 <style>
-    .section-1{
-        background-color: #181623;
-        /* hola */
-    }
+  .section-1 {
+    background-color: #181623;
+    /* hola */
+  }
 </style>
+
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #CA6F1E;">
-        <div class="container">
-          <a class="navbar-brand" href="#">Library Lox</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Services</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Section</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Contact</a>
-              </li>
-            </ul>
+  <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #CA6F1E;">
+    <div class="container">
+      <a class="navbar-brand" href="#">Library Lox</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Section</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div id="horizontally">
+    <!-- <div class="section section-1">
+      <div class="container">
+        page home
+      </div>
+    </div>
+    <div class="section section-1">
+      <div class="container">
+        page about
+      </div>
+    </div>
+    <div class="section section-1">
+      <div class="container">
+        page services
+      </div>
+    </div>
+    <div class="section section-1">
+      <div class="container">
+        page section
+      </div>
+    </div> -->
+    <div class="section section-1 active" style="overflow: scroll;">
+      <div class="container px-4">
+        <div class="text-start">
+          <div class="text-start text-md-center text-lg-center m-2">
+            <h2 class="card-title text-white ps-1 fw-bold fs-1">Contact</h2>
+          </div>
+          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2 g-4 d-flex justify-content-between mt-xs-0 mt-md-4 mt-lg-4 text-white">
+            <!-- First card -->
+            <div class="col col-md-5 col-lg-5">
+              <div class="card bg-transparent h-100">
+                <div class="card-header px-0">
+                  <h3 class="card-title text-start fw-bold">Location</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque quod rem, quisquam exercitationem id</p>
+                </div>
+                <div style="width: 100%"><iframe scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=400&amp;hl=es&amp;q=Campus%20Latinoamerica+(Tienda%20disponible)&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" width="100%" height="400" frameborder="0"><a href="https://www.gps.ie/car-satnav-gps/">Sat Navs</a></iframe></div>
+                </div>
+            </div>
+            <!-- hr ELEMENT -->
+            <div class="col-12 d-md-none d-lg-none">
+              <hr class="border border-white">
+            </div>            
+            <!-- Second card -->
+            <div class="col col-md-5 col-lg-5">
+              <div class="card bg-transparent h-100">
+                <div class="card-header px-0">
+                  <h3 class="card-title text-start fw-bold">Contact Form</h3>
+                </div>
+                <form class="row g-4 h-100 d-flex align-items-end">
+                  <div class="col-12">
+                    <label for="name" class="form-label">Ingresa tu nombre</label>
+                    <input type="name" class="form-control" id="name" placeholder="Jhon Doe">
+                  </div>
+
+                  <div class="col-12">
+                    <label for="email" class="form-label">Ingresa tu email</label>
+                    <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                  </div>
+
+                  <div class="col-12">
+                    <label for="texarea" class="form-label">Deja tu mensaje</label>
+                    <textarea class="form-control" id="textarea" rows="3"></textarea>
+                  </div>
+
+                    <div class="col-12">
+                      <button type="submit" class="btn btn-warning">Submit</button>
+                    </div>
+                </form>
+
+              </div>
+            </div>
+
           </div>
         </div>
-      </nav>
-    <div id="horizontally">
-        <div class="section section-1">
-            <div class="container">
-                page home
-            </div>
-        </div>
-        <div class="section section-1">
-            <div class="container">
-                page about
-            </div>
-        </div>
-        <div class="section section-1">
-            <div class="container">
-                page services
-            </div>
-        </div>
-        <div class="section section-1">
-            <div class="container">
-                page section
-            </div>
-        </div>
-        <div class="section section-1">
-            <div class="container">
-                page contact
-            </div>
-        </div>
+      </div>
     </div>
-    <script src="Assets/components/horizontally/horizontally.js"></script>
-    <script>
-        new horizontally({
-            wrapper: '#horizontally',
-            speed: 1000,
-            arrowButtons: false,
-            pageSelector: true,
-        });
-    </script>
-    <script src="Assets/components/bootstrap5/popper.min.js"></script>
-    <script src="Assets/components/bootstrap5/bootstrap.min.js"></script>
+  </div>
+
+  <script src="Assets/components/horizontally/horizontally.js"></script>
+  <script>
+    new horizontally({
+      wrapper: '#horizontally',
+      speed: 1000,
+      arrowButtons: false,
+      pageSelector: true,
+      scrollBar: false,
+    });
+  </script>
+  <script src="Assets/components/bootstrap5/popper.min.js"></script>
+  <script src="Assets/components/bootstrap5/bootstrap.min.js"></script>
 </body>
+
 </html>
