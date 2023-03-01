@@ -63,7 +63,7 @@
 ## About The Project
 
 <a href="https://theluxlibrary.github.io/Lux-Library/">
-    <img src="product-screenshot" alt="Screenshot" width="100%" height="100%">
+    <img src="Assets\images\screenshot2.JPG" alt="Screenshot" width="100%" height="100%">
 </a>
 
 
@@ -135,7 +135,7 @@ As was mentioned before sometimes the GitHub Pages can't upload the libraries th
 This is how The Lux Library should be in your browser
 
 <a href="https://theluxlibrary.github.io/Lux-Library/">
-    <img src="product-screenshot" alt="Screenshot" width="100%" height="100%">
+    <img src="Assets\images\screenshot2.JPG" alt="Screenshot" width="100%" height="100%">
 </a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -220,6 +220,5 @@ Use this space to list resources you find helpful and would like to give credit 
 [issues-url]: https://github.com/TheLuxlibrary/Lux-Library/issues
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/dulcey93
-[product-screenshot]: Assets\images\screenshot2.JPG
 [Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
 [Bootstrap-url]: https://getbootstrap.com
