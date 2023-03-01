@@ -62,6 +62,10 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
+<a href="https://github.com/TheLuxlibrary/Lux-Library">
+    <img src="Assets\images\Captura.PNG" alt="Logo" width="100%" height="100%">
+  </a>
+
 [![Product Name Screen Shot][product-screenshot]](https://theluxlibrary.github.io/Lux-Library/)
 
 At Campus Latin America we are working to grow more every day, for this and more reasons with our development team we decided to put into practice what we learned with this incredible Landing Page.
@@ -131,7 +135,7 @@ As was mentioned before sometimes the GitHub Pages can't upload the libraries th
 
 This is how The Lux Library should be in your browser
 
-[![Product Name Screen Shot][product-screenshot]](https://theluxlibrary.github.io/Lux-Library/)
+[![Product Name Screen Shot][Assets\images\screenshot.png]](https://theluxlibrary.github.io/Lux-Library/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
