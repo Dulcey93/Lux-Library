@@ -62,11 +62,10 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<a href="https://github.com/TheLuxlibrary/Lux-Library">
-    <img src="Assets\images\Captura.PNG" alt="Logo" width="100%" height="100%">
-  </a>
+<a href="https://theluxlibrary.github.io/Lux-Library/">
+    <img src="product-screenshot" alt="Screenshot" width="100%" height="100%">
+</a>
 
-[![Product Name Screen Shot][product-screenshot]](https://theluxlibrary.github.io/Lux-Library/)
 
 At Campus Latin America we are working to grow more every day, for this and more reasons with our development team we decided to put into practice what we learned with this incredible Landing Page.
 
@@ -135,7 +134,9 @@ As was mentioned before sometimes the GitHub Pages can't upload the libraries th
 
 This is how The Lux Library should be in your browser
 
-[![Product Name Screen Shot][Assets\images\screenshot.png]](https://theluxlibrary.github.io/Lux-Library/)
+<a href="https://theluxlibrary.github.io/Lux-Library/">
+    <img src="product-screenshot" alt="Screenshot" width="100%" height="100%">
+</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -219,6 +220,6 @@ Use this space to list resources you find helpful and would like to give credit 
 [issues-url]: https://github.com/TheLuxlibrary/Lux-Library/issues
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/dulcey93
-[product-screenshot]: Assets\images\Captura.PNG
+[product-screenshot]: Assets\images\screenshot2.JPG
 [Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
 [Bootstrap-url]: https://getbootstrap.com
