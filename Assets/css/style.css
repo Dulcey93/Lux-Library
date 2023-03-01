@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+.section{
+    background-color: #0C0B11 !important;
+    color: white;
+}
+.fp-slidesNav{
+    left: 50% !important;
+}
+.fp-slidesNav ul li a span{
+    background: white !important;
+}
+
+.navbar {
+    background-color: #0C0B11;
+    position: absolute;
+    width: 100%;
+    z-index: 9;
+    padding: 20px 0;
+}
+.nav-item .nav-link{
+    color: rgba(255, 255, 255, 0.788);
+}
+.navbar-brand{
+    color: white;
+}
+.navbar-brand:hover{
+    color: white;
+}
+.navbar-brand span{
+    color: #FFB801;
+    font-weight: 800;
+}
+.nav-item .nav-link{
+    font-size: 15px;
+}
+.navbar-toggler i{
+    color: white;
+    font-size: 22px;
+}
+.fp-watermark{
+    display: none !important;
+}
+.contenido-page{
+    padding-top: 80px;
+}
