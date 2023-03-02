@@ -267,6 +267,7 @@
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
+    padding-top: 70px;
 }
 
 .contenido-inicio .box-1{
@@ -318,6 +319,7 @@ footer{
     display: flex; 
     justify-content: center;
     text-align: center;
+    align-items: end;
     color: var(--colorParrafos);
     width: 100%;
 }

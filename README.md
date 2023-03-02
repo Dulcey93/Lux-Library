@@ -11,7 +11,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/TheLuxlibrary/Lux-Library">
-    <img src="Assets\images\logo.png" alt="Logo" width="80" height="80">
+    <img src="Assets\image\logo.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">The-Lux-Library-Project</h3>
@@ -63,7 +63,7 @@
 ## About The Project
 
 <a href="https://theluxlibrary.github.io/Lux-Library/">
-    <img src="Assets\images\screenshot2.JPG" alt="Screenshot" width="100%" height="100%">
+    <img src="Assets\image\screenshot.PNG" alt="Screenshot" width="100%" height="100%">
 </a>
 
 
@@ -135,7 +135,7 @@ As was mentioned before sometimes the GitHub Pages can't upload the libraries th
 This is how The Lux Library should be in your browser
 
 <a href="https://theluxlibrary.github.io/Lux-Library/">
-    <img src="Assets\images\screenshot2.JPG" alt="Screenshot" width="100%" height="100%">
+    <img src="Assets\image\screenshot2.PNG" alt="Screenshot" width="100%" height="100%">
 </a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
