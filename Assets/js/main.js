@@ -4,13 +4,13 @@ var typewriter = new Typewriter(app, {
     loop: true
 });
 
-typewriter.typeString('Lux!')
-    .pauseFor(2500)
-    .deleteAll()
-    .typeString('</Cracks/>')
+typewriter.typeString('Lux')
     .pauseFor(1000)
     .deleteAll()
-    .typeString('Adios!')
+    .typeString('< Awesome / >')
+    .pauseFor(1000)
+    .deleteAll()
+    .typeString('Responsive!')
     .pauseFor(1000)
     .start();
 

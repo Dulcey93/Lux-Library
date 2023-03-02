@@ -26,17 +26,16 @@
 /*Estilos del Portafolio*/
 .mySwiper {
     width: 100%;
-    padding-top: 50px;
-    padding-bottom: 50px;
   }
 
 .swipers {
     background-position: center;
     background-size: cover;
     width: 300px;
-    height: 850px;
   }
-
+.swiper-pagination-bullet{
+    display: none;
+}
 .swipers img {
     display: block;
     width: 100%;
@@ -164,7 +163,8 @@
 .fp-slidesNav{
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: end;
+    padding-right: 40px;
 }
 .fp-slidesNav ul li a span{
     background: var(--colorSecundario) !important;
@@ -200,8 +200,8 @@
     border-bottom: 2px solid var(--colorSecundario);
 }
 .navbar-toggler i{
-    color: var(--colorTitulo);
-    font-size: 22px;
+    color: var(--colorParrafos);
+    font-size: 37px;
 }
 .fp-watermark{
     display: none !important;
@@ -213,7 +213,7 @@
 /*Estilos pagina de inicio*/
 .info-welcome{
     background-color: white;
-    height: 30em;
+    height: 25em;
     background-image: url('/Assets/image/welcome2.jpg');
     background-position: center;
     background-repeat: no-repeat;
@@ -247,7 +247,7 @@
     border-bottom: 2px solid var(--colorSecundario);
 }
 .contenido-welcome a{
-    background-color: #0C0B11;
+    background-color: var(--colorSection);
     color: #fff;
     border: none;
     width: 150px;
@@ -273,7 +273,7 @@
     width: 700px;
 }
 .contenido-inicio .box-1 h1{
-    font-size: 2em;
+    font-size: 1.7em;
     color: var(--colorTitulo);
     font-weight: 700;
     font-family: 'Playfair Display', serif;
@@ -302,7 +302,7 @@
 }
 /*About*/
 .icons{
-    padding-bottom: 44px;
+    padding-top: 30px ;
 }
 .icons i{
     font-size: 40px;
@@ -310,27 +310,40 @@
     margin: 0px 5px;
     
 }
+.bg-transparent{
+    border: none;
+}
+footer{
+    margin: 40px 0;
+    display: flex; 
+    justify-content: center;
+    text-align: center;
+    color: var(--colorParrafos);
+    width: 100%;
+}
 @keyframes rebota{
     100%{
       transform: translateY(-20px);
     }
   }
 @media (max-width: 1200px) {
-    .info-inicio{
-        margin-bottom: 120px;
-    }
     .contenido-inicio .box-2 img{
         box-shadow: 0px 0px 0px transparent;
         max-width: 600px;
         animation: none;
     }
     .contenido-page{
-        padding: 85px 0;
+        padding: 70px 0 0 0;
     }
 }
 
 @media (max-width: 1000px) {
     .navbar{
         background-color: var(--colorSection);
+    }
+}
+@media (max-width: 800px) {
+    .box-1{
+        padding-top: 30px;
     }
 }
