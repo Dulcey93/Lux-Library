@@ -1,15 +1,21 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    <!-- Metadatos -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Santiago Dulcey, Stiven Carvajal, Eduardo Mantilla">
+    <meta name="description" content="The Lux Library Project">
+    <meta name="keywords" content="HTML, CSS, Bootstrap, Parallax">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <!-- Titulo -->
+    <title>Lux Library</title>
+    <!-- Links -->
     <link rel="shortcut icon" href="Assets/image/favicon.png" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="node_modules/fullpage.js/dist/fullpage.css">
     <link rel="stylesheet" href="Assets/css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <!--Libreria Swiper-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
 </head>
@@ -20,7 +26,7 @@
     </div>
     <nav class="navbar navbar-expand-lg" id="menu">
         <div class="container">
-          <a class="navbar-brand" href="#">Libreria <span id="typeo"></span></a>
+          <a class="navbar-brand" href="#"><span id="typeo"></span> Library</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <i class="fa-solid fa-book"></i>
           </button>
@@ -30,13 +36,13 @@
                 <a class="nav-link" href="#page1/page1-1">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#page1/page1-2">Portafolio</a>
+                <a class="nav-link" href="#page1/page1-2">Portfolio</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#page1/page1-3">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#page1/page1-4">Section</a>
+                <a class="nav-link" href="#page1/page1-4">Testimony</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#page1/page1-5">Contact</a>
@@ -64,148 +70,160 @@
                 <div class="info-welcome">
                   <div class="capa">
                       <div class="contenido-welcome">
-                        <h2>Libreria <span>Lux</span></h2>
+                        <h2><span>Lux</span> Library</h2>
                         <a class="btn btn-dark" href="#page1/page1-3">About</a>
                       </div>
                   </div>
                 </div>
-                <div class="info-inicio">
                 <div class="container">
                   <div class="contenido-inicio">
                     <div class="box-1">
-                      <h1>Lee puto</h1>
-                      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam temporibus necessitatibus modi sunt culpa dignissimos nihil nobis veritatis perferendis explicabo, optio, doloremque nisi provident nostrum, totam vitae neque laboriosam fugit?</p>  
+                      <h1>John Green, autor of the "The Fault in Our Stars".</h1>
+                      <p>
+                        <i class="fas fa-quote-left pe-2 "></i>
+                        Books are the ultimate Dumpees: put them down and they'll wait for you forever; pay attention to them and they always love you back.
+                      </p>  
                     </div>
                     <div class="box-2">
-                      <img src="Assets/image/book.jpg" alt="">
+                      <img src="Assets/image/book.jpg" alt="Book Flying">
                     </div>
                     </div>
                 </div>
-                </div>
+                <footer>
+                  Copyright &copy; 2023 TheLuxLibrary. All Rights Reversed
+                </footer>
             </div>
             <div class="sliderino" data-anchor="page1-2">
                 <div class="container">
                   <div class="contenido-page">
-                    <div class="row">
-                      <div class="col-sm-6">
+                    <div class="row d-flex justify-content-center">
+                      <div class="col col-12 col-sm-5 d-flex justify-content-center">
                         <div class="card bg-transparent h-100">
                           <div class="card-body text-ligth">
-                            <img src="Assets/image/37268.png" alt="" srcset="" width="100%">
-
+                            <img src="Assets/image/37268.png" alt="" srcset="" width="100%" style="max-width: 350px;">
                           </div>
                         </div>
                       </div>
-                      <div class="col-sm-6">
-                        <div class="card bg-transparent h-100">
-                        
-                          <swiper-container class="mySwiper" pagination="true" effect="coverflow" grab-cursor="true" centered-slides="true"
-                          slides-per-view="auto" coverflow-effect-rotate="50" coverflow-effect-stretch="0" coverflow-effect-depth="100"
-                          coverflow-effect-modifier="1" coverflow-effect-slide-shadows="true">
-                          <swiper-slide class="swipers">
-                            <img src="Assets/image/amar.png" />
-                            <strong>Amar es para valientes</strong>
-                            <p>Si bien el amor fascina a las nuevas generaciones sigue siendo uno de los temas que generan mayor ansiedad,
-                              confusiones y decisiones equivocadas en cada nueva generación y por eso se hace fundamental redefinir lo que la
-                                cultura contemporánea dice acerca del amor. </p>
-                                <div class="d-flex justify-content-around">
-                                <a target="_blank" href="https://www.buscalibre.com.co/libro-amar-es-para-valientes/9781946707178/p/52363748">Comprar</a>
-                                <a target="_blank" href="https://www.youtube.com/watch?v=ADQlMRJoL1U">Ver Intro</a>
-                                <a target="_blank" href="https://mega.nz/file/XRAnGT5a#cd5sW0rO1ifNMFZHByvIEP23TmATC8v72h7yVHpZoNc">Descargar</a>
-                            </div>
-                          </swiper-slide>
+                      <div class="col col-12 col-sm-7">
+                        <div class="card bg-transparent ">
+                          <swiper-container class="mySwiper" pagination="false" effect="coverflow" grab-cursor="true" centered-slides="true"
+                            slides-per-view="auto" coverflow-effect-rotate="50" coverflow-effect-stretch="0" coverflow-effect-depth="100"
+                            coverflow-effect-modifier="1" coverflow-effect-slide-shadows="true">
+                            <swiper-slide class="swipers">
+                              <img src="Assets/image/amar.png" />
+                              <strong>Amar es para valientes</strong>
+                              <p>
+                                Although love fascinates the new generations, it continues to be one of the issues that generates the greatest anxiety, confusion, and wrong decisions in each new generation, and for this reason it is essential to redefine what contemporary culture says about love. 
+                              </p>
+                              <div class="d-flex justify-content-around">
+                                <a target="_blank" href="https://www.buscalibre.com.co/libro-amar-es-para-valientes/9781946707178/p/52363748">Buy</a>
+                                <a target="_blank" href="https://www.youtube.com/watch?v=ADQlMRJoL1U">Watch</a>
+                                <a target="_blank" href="https://mega.nz/file/XRAnGT5a#cd5sW0rO1ifNMFZHByvIEP23TmATC8v72h7yVHpZoNc">Download</a>
+                              </div>
+                            </swiper-slide>
                           <swiper-slide class="swipers">
                             <img src="Assets/image/incendiario.jpg" />
                             <strong>Incendiarios</strong>
-                            <p>Acompaña al predicador, autor, y mentor Itiel Arroyo en un viaje interactivo de 40 días para caminar intrépidamente en un mundo de apatía</p>
+                            <p>
+                              Join preacher, author, and mentor Itiel Arroyo on a 40-day interactive journey to fearlessly walk through a world of apathy.
+                            </p>
                             <div class="d-flex justify-content-around">
-                            <a target="_blank" href="https://www.amazon.com/Incendiario-consumir-apatía-intensamente-Spanish/dp/0829771417">Comprar</a>
-                            <a target="_blank" href="https://www.youtube.com/watch?v=482PIJLDUR8" >Ver Intro</a>
-                            <a target="_blank" href="https://www.feaktiva.com/wp-content/uploads/2022/10/Incendiario-muestrario.pdf">Descargar</a>
-                          </div>
+                              <a target="_blank" href="https://www.amazon.com/Incendiario-consumir-apatía-intensamente-Spanish/dp/0829771417">Buy</a>
+                              <a target="_blank" href="https://www.youtube.com/watch?v=482PIJLDUR8" >Watch</a>
+                              <a target="_blank" href="https://www.feaktiva.com/wp-content/uploads/2022/10/Incendiario-muestrario.pdf">Download</a>
+                            </div>
                           </swiper-slide>
                           <swiper-slide class="swipers">
                             <img src="Assets/image/disfrutar.png" />
-                            <strong>Voy a disfrutar la vida</strong>
-                            <p> En ¡Voy a disfrutar la vida !, el escritor y predicador Andrés Corson invita a que hagamos de los detalles un gran acontecimiento.</p>
+                            <strong>¡Voy a disfrutar la vida!</strong>
+                            <p> 
+                              In ¡Voy a disfrutar la vida!, the writer and preacher Andrés Corson invites us to make a great event out of the details.
+                            </p>
                             <div class="d-flex justify-content-around">                    
-                            <a target="_blank" href="https://www.buscalibre.com.co/libro-voy-a-disfrutar-la-vida-libro-en-latin-spanish/9789585789869/p/52919992">Comprar</a>
-                            <a target="_blank" href="https://www.youtube.com/watch?v=icNiDwvOx58">Ver Intro</a>
-                            <a target="_blank" href="Assets/pdf/Vadlv.pdf">Descargar</a>
-                          </div>
+                              <a target="_blank" href="https://www.buscalibre.com.co/libro-voy-a-disfrutar-la-vida-libro-en-latin-spanish/9789585789869/p/52919992">Buy</a>
+                              <a target="_blank" href="https://www.youtube.com/watch?v=icNiDwvOx58">Watch</a>
+                              <a target="_blank" href="Assets/pdf/Vadlv.pdf">Download</a>
+                            </div>
                           </swiper-slide>
                           <swiper-slide class="swipers">
                             <img src="Assets/image/cultura.png" />
                             <strong> Cultura y conexion</strong>
-                            <p>Desde las series de televisión hasta las historias de Instagram o las novelas históricas, 
-                              hay un mundo completo de cultura por disfrutar a nuestro alrededor</p>
-                              <div class="d-flex justify-content-around">
-                              <a target="_blank" href="https://www.amazon.com/-/es/Daniel-Strange-ebook/dp/B08XVXDQTN">Comprar</a>
-                              <a target="_blank" href="">Ver Intro</a>
-                              <a target="_blank" href="https://www.clcchile.com/img/product/description/60fb2310d8183-cultura_y_conexion.pdf">Descargar</a>
+                            <p>
+                              From TV series to Instagram stories to historical novels, there is a whole world of culture around us to enjoy.
+                            </p>
+                            <div class="d-flex justify-content-around">
+                              <a target="_blank" href="https://www.amazon.com/-/es/Daniel-Strange-ebook/dp/B08XVXDQTN">Buy</a>
+                              <a target="_blank" href="">Watch</a>
+                              <a target="_blank" href="https://www.clcchile.com/img/product/description/60fb2310d8183-cultura_y_conexion.pdf">Download</a>
                             </div>
                           </swiper-slide>
                           <swiper-slide class="swipers">
                             <img src="Assets/image/soltero.png" />
                             <strong>Soltero por ahora</strong>
-                            <p>Y en cuanto a relaciones se refiere, podemos dar
-                              “me gusta”, coquetear y enviar mensajes desde la seguridad y comodidad de nuestro sillón.</p>
-                              <div class="d-flex justify-content-around">
-                              <a target="_blank" href="https://www.clccolombia.com/product/soltero-por-ahora-rustica-9781944586652">Comprar</a>
-                              <a target="_blank" href="">Ver Intro</a>
-                              <a target="_blank" href="https://clclibros.com/_CLCPanama/images/sections/Capitulos%20de%20Muestra/Soltero_por_ahora_muestra.pdf">Descargar</a>
+                            <p>
+                              And when it comes to relationships, we can like, flirt, and message from the safety and comfort of our couch.
+                            </p>
+                            <div class="d-flex justify-content-around">
+                              <a target="_blank" href="https://www.clccolombia.com/product/soltero-por-ahora-rustica-9781944586652">Buy</a>
+                              <a target="_blank" href="">Watch</a>
+                              <a target="_blank" href="https://clclibros.com/_CLCPanama/images/sections/Capitulos%20de%20Muestra/Soltero_por_ahora_muestra.pdf">Download</a>
                             </div>
                           </swiper-slide>
                           <swiper-slide class="swipers">
                             <img src="Assets/image/adios.png" />
                             <strong>Adios a las citas amorosas</strong>
-                            <p>¿Estás cansado del mismo juego? Entonces dile Adiós a las Citas
-                              Noviazgo a corto plazo, ¿acaso habrá una manera mejor? Este libro siguiere que sí la hay. </p>
-                              <div class="d-flex justify-content-around">
-                              <a target="_blank" href="https://www.clccolombia.com/product/le-dije-adios-a-las-citas-amorosas">Comprar</a>
-                              <a target="_blank" href="">Ver Intro</a>
-                              <a target="_blank" href="https://ondasdelreino.files.wordpress.com/2011/04/joshua-harris-le-dije-adios-a-las-citas-amorosas.pdf">Descargar</a>
+                            <p>
+                              Are you tired of the same game? So say Goodbye to Short-term Dating Dating, is there a better way? This book will suggest that there is.
+                            </p>
+                            <div class="d-flex justify-content-around">
+                              <a target="_blank" href="https://www.clccolombia.com/product/le-dije-adios-a-las-citas-amorosas">Buy</a>
+                              <a target="_blank" href="">Watch</a>
+                              <a target="_blank" href="https://ondasdelreino.files.wordpress.com/2011/04/joshua-harris-le-dije-adios-a-las-citas-amorosas.pdf">Download</a>
                             </div>
                           </swiper-slide>
                           <swiper-slide class="swipers">
                             <img src="Assets/image/nunca.png" />
                             <strong>Nunca estas solo</strong>
-                            <p>Cuando sentimos que la vida no es suficiente, ¿le importa a Dios? Cuando lo escucho decir «No», ¿tiene una respuesta? Cuando me enfrento a una avalancha de desafíos,
-                              ¿me ayudará? Cuando la vida se vuelve oscura y tormentosa, ¿se da cuenta? Cuando me enfrento al temor a la muerte, ¿me ayudará?</p>
+                            <p>
+                              When we feel that life is not enough, does God care? When I hear you say "No," do you have an answer? When I am faced with an avalanche of challenges, will you help me? When life gets dark and stormy, do you notice? When I face the fear of death, will it help me?
+                            </p>
                               <div class="d-flex justify-content-around">
-                                <a target="_blank" href="https://www.buscalibre.com.co/libro-nunca-estas-solo-confia-en-el-milagro-de-la-presencia-y-el-poder-de-dios/9781400222094/p/53075431">Comprar</a>
-                                <a target="_blank" href="https://www.youtube.com/watch?v=-550TH42qSc">Ver Intro</a>
-                                <a target="_blank" href="">Descargar</a>
+                                <a target="_blank" href="https://www.buscalibre.com.co/libro-nunca-estas-solo-confia-en-el-milagro-de-la-presencia-y-el-poder-de-dios/9781400222094/p/53075431">Buy</a>
+                                <a target="_blank" href="https://www.youtube.com/watch?v=-550TH42qSc">Watch</a>
+                                <a target="_blank" href="">Download</a>
                               </div>
                           </swiper-slide>
                           <swiper-slide class="swipers">
                             <img src="Assets/image/enredes.png" width="80%"/>
                             <strong>En Redes</strong>
-                            <p> Este libro necesario tiene el objetivo de ayudar a los adolescentes a prevenir situaciones abusivas que se presentan a través de internet permitiéndoles explorar 
-                              claves vitales que son muy importantes para tomar en cuenta, a fin de que las experiencias online sirvan para fortalecer las decisiones y la autopercepción
-                              y no perjudicarlas.</p>
+                            <p>
+                              This necessary book has the objective of helping adolescents to prevent abusive situations that occur through the Internet, allowing them to explore vital keys that are very important to take into account, so that online experiences serve to strengthen decisions and self-perception. and not harm them.
+                            </p>
                               <div class="d-flex justify-content-around">
-                                <a target="_blank" href="https://www.amazon.com/En-redes-Spanish-Duff-Fernandez/dp/1954149131">Comprar</a>
-                                <a target="_blank" href="https://www.youtube.com/watch?v=Ah6uf0v4fiI">Ver Intro</a>
-                                <a target="_blank" href="">Descargar</a>
+                                <a target="_blank" href="https://www.amazon.com/En-redes-Spanish-Duff-Fernandez/dp/1954149131">Buy</a>
+                                <a target="_blank" href="https://www.youtube.com/watch?v=Ah6uf0v4fiI">Watch</a>
+                                <a target="_blank" href="">Download</a>
                               </div>
                           </swiper-slide>
                           <swiper-slide class="swipers">
                             <img src="Assets/image/cuadrado.png" />
                             <strong>Cuadrado</strong>
-                            <p>Panita,Espero que puedas sentir la arena bajo tus pies, el susurro de las bananeras, el sonido de la lluvia cuando pega con ganas de romper el techo de zinc,
-                              los canticos de miles de voces que hacen estremecer estadios, la risa, el llanto, el sonido que deja el balón en el aire justo antes de entrar en el arco,
-                                y el suspiro que conecta el alma de millones de personas en el instante de gritar ¡GOL!.
+                            <p>
+                              We hope you can feel the sand under your feet, the whisper of the banana trees, the sound of the rain when it beats like breaking the zinc roof, the songs of thousands of voices that make stadiums shake, the laughter, the crying, the sound that leaves the ball in the air just before entering the goal, and the sigh that connects the soul of millions of people at the moment of shouting GOAL!.
                             </p>
                             <div class="d-flex justify-content-around">
-                              <a target="_blank" href="https://librerianacional.com/producto/cuadrado">Comprar</a>
-                              <a target="_blank" href="https://www.youtube.com/watch?v=BiMaPp6CaYY">Ver Intro</a>
-                              <a target="_blank" href="">Descargar</a>
+                              <a target="_blank" href="https://librerianacional.com/producto/cuadrado">Buy</a>
+                              <a target="_blank" href="https://www.youtube.com/watch?v=BiMaPp6CaYY">Watch</a>
+                              <a target="_blank" href="">Download</a>
                             </div>
                           </swiper-slide>
                         </swiper-container>
                         </div>
                       </div>
                     </div>
+                    <footer>
+                      Copyright &copy; 2023 TheLuxLibrary. All Rights Reversed
+                    </footer>
                   </div>
                 </div>
             </div>
@@ -213,60 +231,43 @@
               <div class="container">
                 <div class="contenido-page">
                   <div class="row">
-                    <div class="col-sm-6">
+                    <div class="col col-12 col-lg-6">
                       <div class="card bg-transparent h-100">
                         <div class="card-body">
                           <h2 class="titulo-slide title-about">About</h2>
-                          <p class="parrafo">Tengamos tiempo o no, tengamos librerías cerca o no, los que leemos lo hacemos porque buscamos
-                            respuestas de preguntas que ni siquiera sabíamos que teníamos.
-                            Recuerdo que alguien dijo que leer permitía que una persona tuviera más de una vida, porque
-                            vivías
-                            las historias que leías. Y eso es totalmente cierto.
-                            Leemos porque creemos que se pueden mejorar las cosas. Un libro es un gran maestro, y un ejemplo
-                            claro de que al poner una palabra tras otra,
-                            puedes construir una obra maravillosa.
-                            Quizás si los Colombianos nos juntáramos y leyéramos un libro tras otro, podamos construir un
-                            mejor
-                            lugar.</p>
-                          <p class="parrafo"> Es posible. Todo es posible cuando se tiene un libro a la mano.
-                            La lectura es un buen método de evasión, diversión y culturización. Es una herramienta que
-                            tenemos
-                            muy a mano y que nos permite educar nuestra mente a la vez que nos otorga distintas perspectivas
-                            e
-                            imágenes que contribuyen a nutrir nuestro intelecto. Y por si fuera poco, leer también relaja y
-                            nos distrae de la cotidianidad y sus problemas, absorbiéndonos a un mundo paralelo cargado de
-                            historias, dramas, comedias o fantasías que a veces, incluso, llegan a provocarnos una sana
-                            adicción.
-                          </p>
-                          <p class="parrafo">La lectura culturiza y nos otorga un sentido crítico y análitico. Gracias a la lectura, somos
-                            capaces de descubrir distintas perspectivas, ampliamos nuestros puntos de vista y nos permite
-                            acceder y adentrarnos a mundos desconocidos, paralelos, a otras realidades, a otros pensamientos
-                            y
-                            sentimientos.</p>
                           <p class="parrafo">
-                          <h2  class="parrafo">No hay peor analfabeta, que aquel que sabiendo leer no lee</h2>
+                            Whether we have time or not, whether we have bookstores nearby or not, those of us who read do so because we are looking for answers to questions we didn't even know we needed.
+                            <br>
+                            Someone once said that reading allowed a person to have more than one life, because you lived the stories you read. At Lux Library we believe this to be true, we read because we believe things can be improved. A book is a great teacher and a clear example that by putting one word after another you can build a wonderful work. Maybe if we Colombians get together and read one book after another, we can build a better place for everyone.
+                            <br>
+                            It's possible. Anything is possible when you have a book at hand. Reading is a good method of escape, fun and culture. It is a tool that we have very close at hand and that allows us to educate our minds while giving us different perspectives and images that contribute to nourishing our intellect. And as if that were not enough, reading also relaxes and distracts us from everyday life and its problems, absorbing us into a parallel world full of stories, dramas, comedies or fantasies that sometimes even lead to a healthy addiction.
+                            <br>
+                            Reading educates and gives us a critical and analytical sense. Thanks to reading, we are able to discover different perspectives, we broaden our points of view and it allows us to access and enter unknown, parallel worlds, other realities, other thoughts and feelings.
+                            <br>
                           </p>
-
+                          <h2  class="parrafo">There is no worse illiterate than the one who knowing how to read does not read</h2>
                         </div>
                       </div>
                     </div>
-
-                    <div class="col-sm-6">
+                    <div class="col  col-12 col-lg-6">
                       <div class="h-100 d-flex justify-content-center align-items-center">
                        
-                          <img src="Assets/image/img1.jpg"  style="max-width: 400px; box-shadow: none; border-radius: 6px;">
+                          <img src="Assets/image/bombillo.jpg"  style="max-width: 400px; box-shadow: none; border-radius: 6px;">
                      
                       </div>
                     </div>
-                    <footer class="d-flex justify-content-center">
+                    <div class="d-flex justify-content-center">
                       <div class="icons">
                         <i class="fab fa-facebook"></i>
                         <i class="fab fa-instagram"></i>
                         <i class="fab fa-twitter"></i>
                         <i class="fab fa-youtube"></i>
                       </div>
-                    </footer>
+                    </div>
                   </div>
+                  <footer>
+                    Copyright &copy; 2023 TheLuxLibrary. All Rights Reversed
+                  </footer>
                 </div>
               </div>
             </div>
@@ -275,12 +276,11 @@
                 <div class="contenido-page">
                   <div class="row row-cols-1 text-center text-white">
                     <div class="col">
-                      <h2 class="fw-bold fs-1 titulo-slide">Testimonios</h2>
-                      <p class="fs-5 parrafoTipo parrafo">Estos son algunos testimonios de nuestros clientes</p>
+                      <h2 class="fw-bold fs-1 titulo-slide">Testimonials</h2>
+                      <p class="fs-5 parrafoTipo parrafo">What our customers are saying...</p>
                     </div>
-                    
-                    <div class="col mt-0 mt-md-4 mt-lg-4">
-                      <div class="card bg-transparent mt-0 mt-md-4 mt-lg-4">
+                    <div class="col">
+                      <div class="card bg-transparent">
                         <div id="carouselExampleDark" class="carousel slide carousel-light">
                         <div class="carousel-inner">
                           <div class="carousel-item active" data-bs-interval="10000">
@@ -293,10 +293,7 @@
                               <div class="col col-md-8 col-lg-8">
                                 <p class="content-testi parrafoTipo">
                                   <i class="fas fa-quote-left pe-2 "></i>
-                                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus et deleniti
-                                  nesciunt sint eligendi reprehenderit reiciendis, quibusdam illo, beatae quia
-                                  fugit consequatur laudantium velit magnam error. Consectetur distinctio fugit
-                                  doloremque.
+                                  I've been buying books from this online store for years and have always had an excellent experience. The website is easy to use, they have a great selection of books, and they always arrive on time. Plus, the customer service is exceptional. I would recommend this store to any book lover.
                                 </p>
                                 <h2 class="mt-3 fw-semibold testi-pers tituloTipo fs-2">Maria Kate</h5>
                                 <p class="parrafoTipo">Photographer</p>
@@ -314,13 +311,10 @@
                               <div class="col col-md-8 col-lg-8">
                                 <p class="content-testi parrafoTipo">
                                   <i class="fas fa-quote-left pe-2"></i>
-                                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus et deleniti
-                                  nesciunt sint eligendi reprehenderit reiciendis, quibusdam illo, beatae quia
-                                  fugit consequatur laudantium velit magnam error. Consectetur distinctio fugit
-                                  doloremque.
+                                  The online book store has a great variety of books and I always find what I'm looking for. Additionally, the prices are very competitive and the shipping is fast. But what I like the most is the customer service, they are always very friendly and resolve any issues immediately.
                                 </p>
-                                <h2 class="mt-3 fw-semibold testi-pers tituloTipo fs-2">Maria Kate</h5>
-                                <p class="parrafoTipo">Photographer</p>
+                                <h2 class="mt-3 fw-semibold testi-pers tituloTipo fs-2">Ana Sanchez</h5>
+                                <p class="parrafoTipo">Cheff</p>
                               </div>
                             </div>
                           </div>
@@ -335,13 +329,10 @@
                               <div class="col col-md-8 col-lg-8">
                                 <p class="content-testi parrafoTipo">
                                   <i class="fas fa-quote-left pe-2"></i>
-                                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus et deleniti
-                                  nesciunt sint eligendi reprehenderit reiciendis, quibusdam illo, beatae quia
-                                  fugit consequatur laudantium velit magnam error. Consectetur distinctio fugit
-                                  doloremque.
+                                  I recently discovered this online book store and couldn't be happier. I bought some books for my son and they arrived in excellent condition and very quickly. The purchasing process was easy and the price was much better than other stores. I will definitely be shopping here again.
                                 </p>
-                                <h2 class="mt-3 fw-semibold testi-pers tituloTipo fs-2">Maria Kate</h5>
-                                <p class="parrafoTipo">Photographer</p>
+                                <h2 class="mt-3 fw-semibold testi-pers tituloTipo fs-2">Silvia Smith</h5>
+                                <p class="parrafoTipo">Software Developer</p>
                               </div>
                             </div>
                           </div>
@@ -360,6 +351,9 @@
                     </div>
       
                   </div>
+                  <footer>
+                    Copyright &copy; 2023 TheLuxLibrary. All Rights Reversed
+                  </footer>
                 </div>
               </div>
             </div>
@@ -376,12 +370,11 @@
                         <div class="card bg-transparent h-100">
                           <div class="card-header px-0">
                             <h3 class="card-title text-start fw-bold titulo">Location</h3>
-                            <p class="parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque quod rem, quisquam
-                              exercitationem id</p>
+                            <p class="parrafo">Thank you for choosing The Lux Library We look forward to hearing from you. Additionally, please don't hesitate to contact us if you have any suggestions about new titles you would like to see in our store, You can find our physical store here</p>
                           </div>
                           <div style="width: 100%; max-height: 300px;"><iframe scrolling="no" marginheight="0" marginwidth="0"
-                              src="https://maps.google.com/maps?width=100%25&amp;height=400&amp;hl=es&amp;q=Campus%20Latinoamerica+(Tienda%20disponible)&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
-                              width="100%" height="400" frameborder="0"><a target="_blank" href="https://www.gps.ie/car-satnav-gps/">SatNavs</a></iframe></div>
+                              src="https://maps.google.com/maps?width=100%25&amp;height=300&amp;hl=es&amp;q=Campus%20Latinoamerica+(Tienda%20disponible)&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+                              width="100%" height="300" frameborder="0"><a target="_blank" href="https://www.gps.ie/car-satnav-gps/">SatNavs</a></iframe></div>
                         </div>
                       </div>
                       <!-- hr ELEMENT -->
@@ -396,17 +389,17 @@
                           </div>
                           <form class="row g-4 d-flex align-items-end">
                             <div class="col-12">
-                              <label for="name" class="form-label">Ingresa tu nombre</label>
+                              <label for="name" class="form-label">Name</label>
                               <input type="name" class="form-control" id="name">
                             </div>
       
                             <div class="col-12">
-                              <label for="email" class="form-label">Ingresa tu email</label>
+                              <label for="email" class="form-label">Email</label>
                               <input type="email" class="form-control" id="email">
                             </div>
       
                             <div class="col-12">
-                              <label for="texarea" class="form-label">Deja tu mensaje</label>
+                              <label for="texarea" class="form-label">Let us your message</label>
                               <textarea class="form-control" id="textarea" rows="3"></textarea>
                             </div>
       
@@ -417,11 +410,15 @@
       
                         </div>
                       </div>
-      
+                      
                     </div>
                   </div>
+                  
                 </div>
               </div>
+              <footer>
+                Copyright &copy; 2023 TheLuxLibrary. All Rights Reversed
+              </footer>
             </div>
         </div>
     </div>
